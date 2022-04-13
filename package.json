@@ -1,0 +1,43 @@
+{
+  "name": "@phemium-costaisa/cordova-file-transfer",
+  "version": "2.0.0",
+  "description": "Cordova File Transfer Plugin",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "@phemium-costaisa/cordova-file-transfer",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "browser"
+    ]
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  },
+  "repository": "github:phemium/cordova-file-transfer",
+  "bugs": "https://github.com/phemium/cordova-file-transfer/issues",
+  "keywords": [
+    "cordova",
+    "file",
+    "transfer",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {
+    "@cordova/eslint-config": "^3.0.0"
+  }
+}
